@@ -28,7 +28,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/main/src/favicon.ico",
-              "projects/main/src/assets"
+              "projects/main/src/assets",
+              "projects/main/src/manifest.webmanifest"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
@@ -37,7 +38,9 @@
             "scripts": [
               "./node_modules/uikit/dist/js/uikit.min.js",
               "./node_modules/uikit/dist/js/uikit-icons.min.js"
-            ]
+            ],
+            "serviceWorker": true,
+            "ngswConfigPath": "projects/main/ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -100,7 +103,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/main/src/favicon.ico",
-              "projects/main/src/assets"
+              "projects/main/src/assets",
+              "projects/main/src/manifest.webmanifest"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
