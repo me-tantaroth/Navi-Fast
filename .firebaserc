@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "navi-fast": {
+      "hosting": {
+        "main": [
+          "navi-fast"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "navi-fast"
+  }
+}
