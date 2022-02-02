@@ -12,5 +12,7 @@ $global-link-color: #DA7D02;
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";
 
+@import "./scss/theme";
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
